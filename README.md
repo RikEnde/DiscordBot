@@ -35,6 +35,7 @@ Select `API Keys`. Generate a key. Place this in your environment variables or `
 ## Create the Discord Bot
 
 Do the following steps in **Chrome**, the Discord Developers Portal **doesn't work in Safari**. 
+
 Go to the [Discord developer portal](https://discord.com/developers/docs/getting-started) and select `get started`. 
 Go to [Applications > New Application](https://discord.com/developers/applications?new_application=true), give the app 
 a name and click `Create`
@@ -52,12 +53,13 @@ Under `Scopes`, select `bot`.
 Then, under `Bot Permissions`, choose the permissions this bot needs. Choose `Read messages/View Channels` and 
 `Send messages`. 
 This will generate a URL which you can use to invite the bot to your Discord server.
+
 Invite the Bot: Use the generated URL to add the bot to a server. You must have the necessary permissions 
 on the server to add a bot.
 
 ## Using the bot
 
-Type `!help` for a list of commands. On a channel, the bot responds to direct messages, or 
+Type `!help` for a list of commands. the bot responds to direct messages, or 
 on a channel to commands like `!prompt` and `!image`. You can set the bot's `!role` to make it 
 role play. `!role` without an argument will set a random role. `!image random` generates a self-portrait of the 
 bot's current role. `!summarize` returns a summary of the current conversation as far as the bot remembers. 
