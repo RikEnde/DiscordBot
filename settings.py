@@ -1,10 +1,3 @@
-PERSONA_FILES_DIR = 'persona'
-PERSONA_ADJECTIVES_FILE = 'adjectives.txt'
-PERSONA_DISLIKES_FILE = 'dislikes.txt'
-PERSONA_LIKES_FILE = 'likes.txt'
-PERSONA_QUIRKS_FILE = 'quirks.txt'
-PERSONA_WHO = 'who.txt'
-
 GPT_MODEL = "gpt-4-1106-preview"
 DALL_E_MODEL = "dall-e-3"
 MAX_HISTORY_TOKENS = 4096
