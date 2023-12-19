@@ -82,3 +82,12 @@ Examples:
 
 The bot has no content filter, but the OpenAI API does, and they will ban you if you attempt too 
 conspicuously to circumvent it  
+
+Examples:
+```
+!image a banana with boobs
+
+Error code: 400 - {'error': {'code': 'content_policy_violation', 'message': 'Your request was rejected as a result of 
+our safety system. Your prompt may contain text that is not allowed by our safety system.', 'param': None, 'type': 
+'invalid_request_error'}}
+```
