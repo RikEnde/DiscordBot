@@ -1,0 +1,9 @@
+.coverage
+.env
+
+/.env
+**/*.iml
+
+.idea/
+__pycache__/
+venv/
