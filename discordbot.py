@@ -27,7 +27,7 @@ bot.temperature = 0.7  # Set default temperature
 bot.max_tokens = MAX_OPENAI_TOKENS  # Set default max_tokens
 bot.max_history_tokens = MAX_HISTORY_TOKENS
 bot.conversation_history = defaultdict(str)
-bot.role = "DexBot"
+bot.role = "Discord bot"
 
 
 @bot.event
